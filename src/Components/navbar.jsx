@@ -6,7 +6,7 @@ import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
 const navigation = [
   { name: 'Home', to: '/home', current: false },
   { name: 'Tentang', to: '/tentang', current: false },
-  { name: 'Coba Sekarang', href: '#', current: true },
+  { name: 'Coba Sekarang', to: 'https://dimengerti-app.vercel.app', target: "_blank", current: true },
   { name: 'Tutorial', to: '/tutorial', current: false },
 ]
 
@@ -48,6 +48,7 @@ export default function Navbar() {
                      <Link
                         key={item.name}
                         to={item.to}
+                        target={item.target}
                         className={classNames(
                           item.current ? 'bg-gray-950 text-warna1' : 'text-gray-950 hover:bg-gray-950 hover:text-warna1',
                           'rounded-md px-3 py-2 text-sm font-IBM font-medium'
