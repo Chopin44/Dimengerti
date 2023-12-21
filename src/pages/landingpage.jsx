@@ -34,7 +34,7 @@ const LandingPage = () => {
       }}
     >
       <motion.div
-        className="text-center font-IBM font-semibold text-[65px] mb-4"
+        className="text-center font-IBM font-semibold 2xl:text-[65px] iphoneP:text-[35px] mb-4"
         variants={textVariants}
         initial="hidden"
         animate="visible"
@@ -42,7 +42,7 @@ const LandingPage = () => {
         Dimengerti App
       </motion.div>
       <motion.div
-        className="text-center font-IBM font-medium text-[45px] mb-4"
+        className="text-center font-IBM font-medium 2xl:text-[45px] iphoneP:text-[28px] mb-4"
         variants={textVariants}
         initial="hidden"
         animate="visible"
@@ -50,7 +50,7 @@ const LandingPage = () => {
         Aplikasi Penerjemah Abjad
       </motion.div>
       <motion.div
-        className="text-center font-IBM font-normal text-[20px] mb-8"
+        className="text-center font-IBM font-normal 2xl:text-[20px] iphoneP:text-[16px] mx-8 mb-8"
         variants={textVariants}
         initial="hidden"
         animate="visible"

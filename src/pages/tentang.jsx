@@ -50,7 +50,7 @@ const tentang = () => {
                           iphoneP:left-[200px] iphoneP:h-[1966px]">
             <div className="relative w-[338px] h-[116px] top-[765px] left-[227px]
                             iphoneP:left-[50px]">
-              <div className="relative 2xl:h-[116px] 2xl:left-[120px] 2xl:-top-px
+              <div className="relative 2xl:h-[116px] 2xl:left-[320px] 2xl:-top-px
                             xl:h-[116px] xl:-left-[30px] xl:-top-px
                             iphoneP:h-[116px] iphoneP:-left-[30px] iphoneP:-top-60 ">
                   <div className="absolute w-[280px] h-[65px] top-[51px] left-[58px] font-IBM font-semibold text-black 2xl:text-[40px] iphoneP:text-[30px] text-center tracking-[0] leading-[normal]">
@@ -60,19 +60,20 @@ const tentang = () => {
                     CARA KERJA
                   </div>
               </div>
-              <p className="absolute 2xl:w-[868px] 2xl:top-0 2xl:left-[604px] 2xl:text-[18px] 
+              <p className="absolute 2xl:w-[868px] 2xl:top-0 2xl:left-[704px] 2xl:text-[18px] 
                 xl:w-[768px] xl:left-[360px] xl:top-0 xl:text-[16px]
                 iphoneP:w-[360px] iphoneP:-left-8 iphoneP:-top-24 iphoneP:text-[14px]
                 font-IBM font-medium  text-black tracking-[0] leading-[normal]">
-                Dimengerti menggunakan model learning YOLOv3 (You Only Look Once Versi 3), YOLO Menggunakan (single forward pass) melalui jaringan saraf
-                untuk mendeteksi objek dengan satu langkah. Ini berbeda dengan beberapa pendekatan lain yang melibatkan
-                beberapa langkah untuk mendeteksi objek.
+                Dimengerti menggunakan model learning mobilenet_v2. Mobilenet_v2 adalah 
+                sebuah arsitektur jaringan saraf tiruan (neural network) 
+                yang dikembangkan khusus untuk tugas deteksi objek dan 
+                klasifikasi gambar pada perangkat bergerak (mobile devices) dengan sumber daya terbatas.
               </p>
               <Link to="https://huggingface.co/docs/transformers/model_doc/mobilenet_v2">
-                <div className="flex 2xl:w-[248px] 2xl:h-[60px] 2xl:top-32 2xl:left-[604px]
+                <div className="flex 2xl:w-[248px] 2xl:h-[60px] 2xl:top-32 2xl:left-[704px]
                 xl:w-[248px] xl:h-[60px] xl:top-32 xl:left-[360px]
                 iphoneP:w-[155px] iphoneP:h-[60px] iphoneP:top-20 iphoneP:-left-[33px]
-                items-center hover:scale-105 justify-center px-0 py-[15px] absolute bg-gray-800 shadow-md iphoneP:rounded-md shadow-black">
+                items-center hover:scale-105 justify-center px-0 py-[15px] absolute from-gray-950 bg-gradient-to-tl to-gray-700 shadow-md shadow-black iphoneP:rounded-md">
                   <div className="relative w-fit font-semibold text-[#f5f7f8] 
                   2xl:text-[16px] 
                   xl:text-[16px] 
@@ -84,7 +85,7 @@ const tentang = () => {
               </Link>
               
                 <div className="inline-flex items-start 2xl:flex-row iphoneP:flex-col 2xl:gap-[71px] iphoneP:gap-36 absolute 
-                2xl:top-[454px] 2xl:left-[255px]
+                2xl:top-[454px] 2xl:left-[355px]
                 xl:top-[454px] xl:-left-[0px] xl:flex-row xl:gap-[71px]
                 iphoneP:top-[300px] iphoneP:-left-6">
                 <div className="relative w-[353px] h-[196px]">
@@ -146,14 +147,14 @@ const tentang = () => {
                     xl:w-[972px] xl:h-[196px] xl:top-[196px] xl:left-[112px]                    
                     iphoneP:w-[350px] iphoneP:text-left iphoneP:h-[196px] iphoneP:top-[96px] iphoneP:left-[12px]
 
-                    font-IBM font-semibold text-black 2xl:text-[40px] xl:text-[40px] iphoneP:text-[24px] tracking-[0] leading-[normal]">
+                    font-IBM font-semibold text-black 2xl:text-[40px] xl:text-[40px] iphoneP:text-[22px] tracking-[0] leading-[normal]">
                     DIMENGERTI DIBANGUN UNTUK MEMBANTU ANAK-ANAK PENYANDANG TUNARUNGU DALAM BELAJAR ABJAD
                 </p>
                 <p className="absolute 
-                  2xl:w-[945px] 2xl:top-[402px] 2xl:left-[112px]
-                  xl:w-[945px] xl:top-[402px] xl:left-[112px]
-                  iphoneP:w-[345px] iphoneP:top-[282px] iphoneP:left-[12px] iphoneP:text-left
-                  font-IBM font-medium text-black text-[20px] tracking-[0] leading-[normal]">
+                  2xl:w-[945px] 2xl:top-[402px] 2xl:left-[112px] 2xl:text-[20px]
+                  xl:w-[945px] xl:top-[402px] xl:left-[112px] xl:text-[20px]
+                  iphoneP:w-[345px] iphoneP:top-[282px] iphoneP:left-[12px] iphoneP:text-[16px] iphoneP:text-left
+                  font-IBM font-medium text-black  tracking-[0] leading-[normal]">
                   Dimengerti dapat digunakan sebagai alat bantu dalam pembelajaran inklusi khususnya di sekolah-sekolah luar
                   biasa sehingga dapat menjadi media bantu dalam belajar abjad dengan memanfaatkan teknologi aplikasi
                 </p>
