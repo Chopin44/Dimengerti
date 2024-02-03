@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import bg from "../assets/bg.svg";
+import bg from "../../public/assets/bg.svg";
 
 const LandingPage = () => {
   const textVariants = {

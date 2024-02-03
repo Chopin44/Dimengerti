@@ -1,6 +1,6 @@
 import React from 'react';
 import Footer from '../Components/footer';
-import video from "../assets/demo.mp4";
+import video from "../../public/assets/demo.mp4";
 import Requirements from '../Components/requirement';
 import FAQ from '../Components/faq';
 import Navbar from '../Components/navbar';
