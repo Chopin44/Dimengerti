@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from 'react-router-dom';
 import Footer from "../Components/footer";
 import Navbar from "../Components/navbar";
-import arrow from "../assets/images/arrow.svg";
+import arrow from "../../public/assets/images/arrow.svg";
 import "../assets/CSS/arrow-1.css"
 
 

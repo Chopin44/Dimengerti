@@ -47,7 +47,7 @@ const Home = () => {
             </Link>
           </div>
           <div>
-            <img className="xl:w-[635px] xl:h-[406px] md:w-[506px] md:h-[300px]" src="src/assets/images/dekstop.png" alt="Gambar" />
+            <img className="xl:w-[635px] xl:h-[406px] md:w-[506px] md:h-[300px]" src="/public/assets/images/dekstop.png" alt="Gambar" />
           </div>
         </motion.div>
       </motion.div>
@@ -62,7 +62,7 @@ const Home = () => {
           variants={imageVariants}
         >
           <div>
-            <img className="xl:w-[635px] xl:h-[406px] md:w-[506px] md:h-[300px]  mb-4" src="src/assets/images/dekstop3.png" alt="Gambar" />
+            <img className="xl:w-[635px] xl:h-[406px] md:w-[506px] md:h-[300px]  mb-4" src="/public/assets/images/dekstop3.png" alt="Gambar" />
           </div>
           <div className="text-left md:ml-8">
             <h1 className="text-3xl text-[32px] mini:text-[28px] smini:text-[24px] font-IBM font-semibold mb-2">Belajar Abjad Isyarat </h1>
@@ -95,7 +95,7 @@ const Home = () => {
             <img
               className="md:w-56 object-cover"
               alt="Mobile"
-              src="src/assets/images/mobile1.png"
+              src="/public/assets/images/mobile1.png"
             />
           </div>
 
@@ -117,7 +117,7 @@ const Home = () => {
             <img
               className="md:mt-56 mx-4 md:w-56 object-cover"
               alt="Mobile"
-              src="src/assets/images/mobile2.png"
+              src="/public/assets/images/mobile2.png"
             />
           </div>
 
