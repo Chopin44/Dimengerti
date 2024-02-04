@@ -50,7 +50,7 @@ const tentang = () => {
                           iphoneP:left-[200px] iphoneP:h-[1966px]">
             <div className="relative w-[338px] h-[116px] top-[765px] left-[227px]
                             iphoneP:left-[50px]">
-              <div className="relative 2xl:h-[116px] 2xl:left-[320px] 2xl:-top-px
+              <div className="relative 2xl:h-[116px] 2xl:left-[320px] Mac:left-[100px] 2xl:-top-px
                             xl:h-[116px] xl:-left-[30px] xl:-top-px
                             iphoneP:h-[116px] iphoneP:-left-[30px] iphoneP:-top-60 ">
                   <div className="absolute w-[280px] h-[65px] top-[51px] left-[58px] font-IBM font-semibold text-black 2xl:text-[40px] iphoneP:text-[30px] text-center tracking-[0] leading-[normal]">
@@ -60,7 +60,7 @@ const tentang = () => {
                     CARA KERJA
                   </div>
               </div>
-              <p className="absolute 2xl:w-[868px] 2xl:top-0 2xl:left-[704px] 2xl:text-[18px] 
+              <p className="absolute 2xl:w-[868px] 2xl:top-0 2xl:left-[704px] Mac:left-[450px] 2xl:text-[18px] 
                 xl:w-[768px] xl:left-[360px] xl:top-0 xl:text-[16px]
                 iphoneP:w-[360px] iphoneP:-left-8 iphoneP:-top-24 iphoneP:text-[14px]
                 font-IBM font-medium  text-black tracking-[0] leading-[normal]">
@@ -70,7 +70,7 @@ const tentang = () => {
                 klasifikasi gambar pada perangkat bergerak (mobile devices) dengan sumber daya terbatas.
               </p>
               <Link to="https://huggingface.co/docs/transformers/model_doc/mobilenet_v2">
-                <div className="flex 2xl:w-[248px] 2xl:h-[60px] 2xl:top-32 2xl:left-[704px]
+                <div className="flex 2xl:w-[248px] 2xl:h-[60px] 2xl:top-32 2xl:left-[704px] Mac:left-[450px]
                 xl:w-[248px] xl:h-[60px] xl:top-32 xl:left-[360px]
                 iphoneP:w-[155px] iphoneP:h-[60px] iphoneP:top-20 iphoneP:-left-[33px]
                 items-center hover:scale-105 justify-center px-0 py-[15px] absolute from-gray-950 bg-gradient-to-tl to-gray-700 shadow-md shadow-black iphoneP:rounded-md">
@@ -85,7 +85,7 @@ const tentang = () => {
               </Link>
               
                 <div className="inline-flex items-start 2xl:flex-row iphoneP:flex-col 2xl:gap-[71px] iphoneP:gap-36 absolute 
-                2xl:top-[454px] 2xl:left-[355px]
+                2xl:top-[454px] 2xl:left-[355px] Mac:left-[90px]
                 xl:top-[454px] xl:-left-[0px] xl:flex-row xl:gap-[71px]
                 iphoneP:top-[300px] iphoneP:-left-6">
                 <div className="relative w-[353px] h-[196px]">
