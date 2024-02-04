@@ -19,6 +19,7 @@ export default {
         mini: "376px",
         iphoneP: "390px",
         iphoneMax: "428px",
+        Mac: "1440px",
       },
     },
   },

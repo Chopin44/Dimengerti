@@ -13,14 +13,14 @@ const tentang = () => {
         <div className="absolute w-full h-[700px]">
             <div className="bg-warna2 shadow-lg w-full 2xl:pl-64 xl:pl-0 2xl:h-[646px] md:h-[500px] xl:h-[700px] iphoneP:h-[500px] smini:h-[500px]">
             <div className="relative">
-                <p className="absolute text-center 2xl:w-[1055px] 2xl:h-[195px] 2xl:left-[192px] 2xl:top-[146px] 2xl:text-[40px] 
+                <p className="absolute text-center 2xl:w-[1055px] 2xl:h-[195px] 2xl:left-[192px] Mac:left-[200px] 2xl:top-[146px] 2xl:text-[40px] 
                   xl:w-[1055px] xl:h-[195px] xl:top-32 xl:left-32 xl:text-[40px]
                   iphoneP:w-[390px] iphoneP:h-[295px] iphoneP:top-32 iphoneP:-left-[0px] iphoneP:text-[18px]
                   iphoneMax::w-[405px] iphoneMax:h-[52px] iphoneMax:top-32 iphoneMax:left-4 iphoneMax:text-[18px]
                   leading-normal font-IBM font-semibold">
                   DIMENGERTI DIBANGUN DENGAN MACHINE LEARNING BERBASIS COMPUTER VISION
                 </p>
-                <p className="absolute 2xl:w-[945px] 2xl:h-[52px] 2xl:left-[282px] 2xl:top-[289px] 2xl:text-[20px]
+                <p className="absolute 2xl:w-[945px] 2xl:h-[52px] 2xl:left-[282px] Mac:left-[250px] 2xl:top-[289px] 2xl:text-[20px]
                     xl:w-[945px] xl:[h-52px] xl:top-64 xl:left-44 xl:text-[20px]
                     iphoneP:w-[390px] iphoneP:h-[52px] iphoneP:top-48 iphoneP:left-0 iphoneP:text-[12px]
                     iphoneMax::w-[390px] iphoneMax:h-[52px] iphoneMax:top-48 iphoneMax:left-4 iphoneMax:text-[12px]
@@ -30,7 +30,7 @@ const tentang = () => {
                 </p>
               <Link to="https://machinelearningmastery.com/start-here/#getstarted">
                 <div className="flex  h-[60px] items-center justify-center px-0 py-[15px] absolute 
-                    2xl:w-[248px] 2xl:top-[411px] 2xl:left-[596px]
+                    2xl:w-[248px] 2xl:top-[411px] 2xl:left-[596px] Mac:left-[600px]
                     xl:w-[248px] xl:top-[411px] xl:left-[500px]
                     iphoneP:top-[268px] iphoneP:left-[120px] iphoneP:w-[150px]
                     iphoneMax:top-[268px] iphoneMax:left-[145px] iphoneMax:w-[150px]
